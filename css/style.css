@@ -1,0 +1,570 @@
+
+
+/* Style of 'Header, Nav's and Footer', 'index page', 'aboutus page' and 'Popup JQuery form' by Bernard Skerritt x14110717 */
+/* Style of 'how PV works page' and 'gallery page' and 'contact page' by Tobi Olajire x13111434 */
+
+/* Body, Header and Nav styles start here */
+body{
+background: -webkit-linear-gradient(0deg, #DCD1F6, #320C90, #1E045F, #000000); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(0deg, #DCD1F6, #320C90, #1E045F, #000000); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(0deg, #DCD1F6, #320C90, #1E045F, #000000); /* For Firefox 3.6 to 15 */
+background: linear-gradient(0deg, #DCD1F6, #320C90, #1E045F, #000000); /* Standard syntax */
+/*background-image:url("../images/solarBG4.jpg");
+background-attachment: fixed;
+background-repeat: repeat-x;*/
+}
+
+#wrapper{
+position:relative;
+overflow:auto;
+background-color:white;
+width:960px;
+min-height:100%;
+margin:0 auto;
+border-style:solid;
+border-width:5px;
+border-color:white;
+box-shadow: 0px 0px 15px 5px #1F1F51;
+}
+
+#one{
+position:relative;
+width:960px;
+min-height:200px;
+}
+
+#logobg{
+background-image:url("../images/SLheader_logo.jpg");
+position:relative;
+width:100%;
+height:160px;
+}
+
+#leftspacer{
+position:relative;
+width:520px;
+height:160px;
+float:left;
+}
+
+#tagline{
+background-image:url("../images/tagline.png");
+position:relative;
+width:370px;
+height:110px;
+float:left;
+}
+
+#cust{
+background-image:url("../images/cust_off.png");
+position:relative;
+width:370px;
+height:50px;
+float:left;
+}
+
+#cust:hover{
+background-image:url("../images/cust_on.png");
+cursor:pointer;
+}
+
+#goog{
+background-image:url("../images/goog.png");
+position:relative;
+width:70px;
+height:52px;
+float:right;
+margin-top:-110px;
+}
+
+#face{
+background-image:url("../images/face.png");
+position:relative;
+width:70px;
+height:52px;
+float:right;
+margin-top:-57px;
+}
+
+#twit{
+background-image:url("../images/twit.png");
+position:relative;
+width:70px;
+height:52px;
+float:right;
+margin-top:-3px;
+}
+
+#nav{
+position:relative;
+background-color:black;
+width:100%;
+height:40px;
+}
+
+#home, #about, #howpv, #gallery, #contact{
+position:relative;
+background-color:#250666;
+font-family:"arial", "sans-serif";
+font-weight: bold;
+color: white;
+text-align: center;
+line-height: 70%;
+width:192px;
+height:40px;
+float:left;
+cursor:pointer;
+transition-duration:700ms;
+}
+
+#home:hover, #about:hover, #howpv:hover, #gallery:hover, #contact:hover{
+background-color:black;
+cursor:pointer;
+}
+/* Body, Header and Nav styles end here */
+
+#two{
+position:relative;
+background-color:white;
+width:960px;
+min-height:500px;
+}
+
+#three{
+position:relative;
+background-color:#008B11;
+width:960px;
+min-height:460px;
+}
+
+/* index main content styles start here */
+
+#img1, #img2, #img3{
+position:relative;
+width:240px;
+height:190px;
+border-style:solid;
+border-width:5px;
+border-color:white;
+background-color:white;
+margin:0 auto;
+box-shadow: 0px 0px 15px 2px #1F1F51;
+}
+
+#img1{
+background-image:url("../images/fp_pic3.jpg");
+}
+
+#img2{
+background-image:url("../images/fp_pic4.jpg");
+}
+
+#img3{
+background-image:url("../images/fp_pic5.jpg");
+}
+
+#box1{
+position:relative;
+width:320px;
+min-height:547px;
+background-color:#009B00;
+float:left;
+}
+
+#box2{
+position:relative;
+width:320px;
+min-height:547px;
+background-color:#007E00;
+float:left;
+}
+
+#box3{
+position:relative;
+width:320px;
+min-height:547px;
+background-color:#009B00;
+float:left;
+}
+
+#titlebox{
+position:relative;
+width:250px;
+min-height:20px;
+margin:0 auto;
+}
+
+#title{
+font-family:"arial", "sans-serif";
+font-weight: bold;
+color: white;
+}
+
+#boxtext{
+position:relative;
+width:300px;
+min-height:200px;
+font-family:"arial", "sans-serif";
+font-size:11.8pt;
+text-align: left;
+line-height:150%;
+color:white;
+padding-left:10px;
+}
+/* index main content style ends here */
+
+/* Popup JQuery style starts here */
+
+.container {width: 200px; margin: 0 auto; overflow: hidden;}
+
+#content {	float: left; width: 200px;}
+
+.post { margin: 0 auto; padding-bottom: 50px; float: left; width: 200px; }
+
+.btn-sign {
+	width:460px;
+	margin-bottom:20px;
+	margin:0 auto;
+	padding:20px;
+	border-radius:5px;
+	background: -moz-linear-gradient(center top, #00c6ff, #018eb6);
+    background: -webkit-gradient(linear, left top, left bottom, from(#00c6ff), to(#018eb6));
+	background:  -o-linear-gradient(top, #00c6ff, #018eb6);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#00c6ff', EndColorStr='#018eb6');
+	text-align:center;
+	font-size:36px;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+.btn-sign a { color:#fff; text-shadow:0 1px 2px #161616; }
+
+#mask {
+	display: none;
+	background: #000; 
+	position: fixed; left: 0; top: 0; 
+	z-index:99;
+	width: 100%; height: 100%;
+	opacity: 0.9;
+}
+
+.login-popup{
+	display:none;
+	background: #333;
+	padding: 10px; 	
+	border: 5px solid #ddd;
+	float: left;
+	font-size: 1.2em;
+	position: fixed;
+	top: 50%; left: 50%;
+	z-index: 999;
+	box-shadow: 0px 0px 20px #999;
+	-moz-box-shadow: 0px 0px 20px #999; /* Firefox */
+    -webkit-box-shadow: 0px 0px 20px #999; /* Safari, Chrome */
+	border-radius:3px 3px 3px 3px;
+    -moz-border-radius: 3px; /* Firefox */
+    -webkit-border-radius: 3px; /* Safari, Chrome */
+}
+
+img.btn_close {
+	float: right; 
+	margin: -28px -28px 0 0;
+}
+
+fieldset { 
+	border:none; 
+}
+
+form.signin .textbox label { 
+	display:block; 
+	padding-bottom:7px; 
+}
+
+form.signin .textbox span { 
+	display:block;
+}
+
+form.signin p, form.signin span { 
+	color:#999; 
+	font-size:11px; 
+	line-height:18px;
+} 
+
+form.signin .textbox input { 
+	background:#666666; 
+	border-bottom:1px solid #333;
+	border-left:1px solid #000;
+	border-right:1px solid #333;
+	border-top:1px solid #000;
+	color:#fff; 
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+	font:13px Arial, Helvetica, sans-serif;
+	padding:6px 6px 4px;
+	width:200px;
+}
+
+form.signin input:-moz-placeholder { color:#bbb; text-shadow:0 0 2px #000; }
+form.signin input::-webkit-input-placeholder { color:#bbb; text-shadow:0 0 2px #000;  }
+
+.button { 
+	background: -moz-linear-gradient(center top, #f3f3f3, #dddddd);
+	background: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#dddddd));
+	background:  -o-linear-gradient(top, #f3f3f3, #dddddd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f3f3f3', EndColorStr='#dddddd');
+	border-color:#000; 
+	border-width:1px;
+	border-radius:4px 4px 4px 4px;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+	color:#333;
+	cursor:pointer;
+	display:inline-block;
+	padding:6px 6px 4px;
+	margin-top:10px;
+	font:12px; 
+	width:214px;
+}
+
+.button:hover { background:#ddd; }
+
+/* Popup JQuery style ends here */
+
+/* About Us page styles start here */
+
+#aboutbox1{
+position:relative;
+background-color:#009B00;
+width:560px;
+min-height:600px;
+float:left;
+}
+
+.abouthead{
+font-family:"arial", "sans-serif";
+font-size:14pt;
+font-weight:bolder;
+text-align: justify;
+color:white;
+}
+
+#boxtext2{
+width:500px;
+min-height:200px;
+font-family:"arial", "sans-serif";
+font-size:12pt;
+text-align: justify;
+line-height:150%;
+color:white;
+margin:0 auto;
+}
+
+#aboutbox2{
+position:relative;
+background-color:#007E00;
+width:400px;
+min-height:600px;
+float:left;
+}
+
+#aboutimgbox1, #aboutimgbox2{
+position:relative;
+width:290px;
+height:240px;
+border-style:solid;
+border-width:5px;
+border-color:white;
+background-color:white;
+margin:0 auto;
+margin-top:33px;
+box-shadow: 0px 0px 15px 2px #1F1F51;
+}
+
+#aboutimgbox1{
+background-image:url("../images/solarpvpanels.jpg");
+}
+
+#aboutimgbox2{
+background-image:url("../images/spv_house.jpg");
+}
+
+/* About Us page styles end here */
+
+/* How PV Works page styles start here */
+
+#pv1{
+width:960px;
+height:200px;
+}
+#text1,#text2,#text3,#text4,#text5,#text6,#text7,#text8{
+margin-left:5%;
+font-family:"arial", "sans-serif";
+margin-right:3%;
+}
+#text2,#text5{
+color: blue;
+}
+#text3,#text4,#text6,#text7,#text8{
+color: grey;
+}
+
+#pv2{
+background-image:url("../images/SolarLight.jpg");
+width:100%;
+height:306px;
+}
+#pv3{
+width:960px;
+height:200px;
+}
+#text5{
+text-align: justify;
+
+}
+#pv4{
+background-image:url("../images/SolarHouse.jpg");
+width:100%;
+height:341px;
+}
+
+/* How PV Works page styles end here */
+
+/* Gallery page styles start here */
+
+.galhead{
+margin-top:0px;
+padding-top:10px;
+font-family:"arial", "sans-serif";
+font-size: 30px;
+color:black;
+text-align: center;
+}
+
+.click{
+font-family:"arial", "sans-serif";
+font-size: 11pt;
+color:black;
+text-align: center;
+margin-top:-10px;
+}
+
+video{
+height:450px;
+width:785px;
+margin-left:90px;
+}
+
+#video{
+width:960px;
+height:580px;
+margin:0 auto;
+}
+
+#pics1{
+width:100%;
+height:400px;
+
+}
+#pics2{
+width:100%;
+height:400px;
+}
+#GL1{
+background-image:url("../images/GL1.jpg");
+float:left;
+height:380px;
+width:400px;
+margin-left:5%;
+}
+#GL2{
+background-image:url("../images/GL2.jpg");
+float:right;
+height:380px;
+width:400px;
+margin-right:5%;
+}
+#GL3{
+background-image:url("../images/GL3.jpg");
+float:right;
+height:380px;
+width:400px;
+margin-right:5%;
+}
+#GL4{
+background-image:url("../images/GL4.jpg");
+float:left;
+height:380px;
+width:400px;
+margin-left:5%;
+}
+
+/* Gallery page styles end here */
+
+/* Contact page style starts here */
+
+#form{
+margin-left:15px;
+margin-top:20px;
+width:600px;
+height:400px;
+float:left;
+}
+#contact1{
+border: 2px solid #5C5CFF;
+margin-right:60px;
+width:260px;
+height:200px;
+float:right;
+border-radius:20px;
+position:relative;
+padding:10px;
+}
+#googleMap{
+width:100%;
+height:380px;
+position:relative;
+}
+
+h2, h4{
+    text-align: center;
+}
+
+/* Contact page styles end here */
+
+/* Address and Footer styles start here */
+#details{
+position:relative;
+text-align: center;
+background-color:#250666;
+width:960px;
+min-height:120px;
+float:left;
+}
+
+#detailstyle{
+line-height: 200%;
+font-family:"arial", "sans-serif";
+font-weight: normal;
+font-size:16px;
+color: white;
+}
+
+#footer{
+position:relative;
+background-color:#5727B9;
+width:960px;
+min-height:52px;
+float:left;
+}
+
+#footerstyle{
+padding-left:130px;
+line-height: 370%;
+font-family:"arial", "sans-serif";
+font-weight: normal;
+font-size:14px;
+color: grey;
+}
+
+/* Address and Footer styles end here */
